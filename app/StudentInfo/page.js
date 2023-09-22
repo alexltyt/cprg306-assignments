@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function StudentInfo(){
 
     return (
@@ -7,7 +9,7 @@ export default function StudentInfo(){
             <br></br>
             <p className="m-3">Student Name: (Alex) Shek Yin Leung</p>
             <p className="m-3">Course Section: CPRG 206 C</p>
-            <a  className="to-blue-800 m-3"href="https://github.com/alexltyt">GitHubPage: https://github.com/alexltyt</a>
+            <Link className="text-blue-800 m-3"href="https://github.com/alexltyt/cprg306-assignments">GitHubPage: https://github.com/alexltyt/cprg306-assignments</Link>
         </main>
 
     )

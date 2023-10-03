@@ -10,6 +10,9 @@ export default function Home() {
     <p className="m-3 text-orange-600" >
       <Link href="/week3">Week3</Link>
     </p>
+    <p className="m-3 text-yellow-400" >
+      <Link href="/week4">Week4</Link>
+    </p>
    </main>
   
 }

@@ -14,8 +14,11 @@ export default function Home() {
     <p className="m-3 text-yellow-400" >
       <Link href="/week4">Week4</Link>
     </p>
-    <p className="m-3 text-green-600" >
+    <p className="m-3 text-green-800" >
       <Link href="/week5">Week5</Link>
+    </p>
+    <p className="m-3 text-green-300" >
+      <Link href="/week6">Week6</Link>
     </p>
    </main>
   )

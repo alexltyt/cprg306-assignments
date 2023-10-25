@@ -1,7 +1,7 @@
-export default function Item({name,quantity,category,onDelete}) {
+export default function Item({name,quantity,category,onDelete,onSelect}) {
  return(
-    <li className="m-3 p-2 bg-blue-950 w-72 flex justify-between items-center">
-        <div>
+    <li className="m-3 p-2 bg-blue-950 w-72 flex justify-between items-center" onClick={()=>onSelect(name)}>
+        <div >
         <h3 className="text-lg">{name}</h3>
         <p>Buy {quantity} in {category}</p>
         </div>

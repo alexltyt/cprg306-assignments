@@ -18,9 +18,9 @@ export default function NewItem({onSubmit}) {
 
     return (
         <>
-        <div className="flex flex-col items-center mr-auto ml-auto w-3/5 mt-3">
+        <div className="flex flex-col m-3  ">
 
-            <form onSubmit={handleSubmit} className=" text-black bg-blue-950 w-full p-3">
+            <form onSubmit={handleSubmit} className=" text-black bg-blue-950 w-4/5 p-3 rounded-xl">
                 <input type="text" 
                     className="w-full m-1 rounded-lg h-10 p-2" 
                     placeholder="Item Name"

@@ -1,3 +1,4 @@
+
 import StudentInfo from "./StudentInfo/page"
 import Link from 'next/link';
 
@@ -22,6 +23,9 @@ export default function Home() {
     </p>
     <p className="m-3 text-blue-300" >
       <Link href="/week7">Week7</Link>
+    </p>
+    <p className="m-3 text-purple-600" >
+      <Link href="/week8">Week8</Link>
     </p>
    </main>
   )

@@ -35,7 +35,7 @@ export default function ItemList({itemsArray, onDelete, onItemSelect}) {
             
             {itemsArray.map((item,index,array) => {
                 if(sortType==="name"||sortType==="category"){
-                    return <Item name={item.name} quantity={item.quantity} category={item.category} onDelete={handleDelete} onSelect={onItemSelect}/>
+                    return <Item key={item.name} name={item.name} quantity={item.quantity} category={item.category} onDelete={handleDelete} onSelect={onItemSelect}/>
                 }else if(sortType==="grouped category"){
                     if (index === 0 || item.category !== array[index - 1].category) {
                         const capitalizedCategory = item.category.charAt(0).toUpperCase() + item.category.slice(1);

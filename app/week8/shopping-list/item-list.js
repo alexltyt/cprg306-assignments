@@ -49,7 +49,7 @@ export default function ItemList({itemsArray, onDelete, onItemSelect}) {
                         );
                       }
                       return (
-                        <div className='m-6'>
+                        <div className='m-6'key={item.name}>
                             <Item key={item.name} name={item.name} quantity={item.quantity} category={item.category} onDelete={handleDelete} onSelect={onItemSelect}/>
                         </div>
                         

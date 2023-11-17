@@ -27,6 +27,9 @@ export default function Home() {
     <p className="m-3 text-purple-600" >
       <Link href="/week8">Week8</Link>
     </p>
+    <p className="m-3 text-purple-300" >
+      <Link href="/week10">Week10</Link>
+    </p>
    </main>
   )
 }

@@ -14,7 +14,7 @@ export default function Page(){
     const {user, gitHubSignIn, firebaseSignOut} = useUserAuth();
 
     async function handleAddItem(item){
-        alert(`Item added: ${item.name} ${item.quantity} ${item.category}}`);
+        alert(`Item added: ${item.name} ${item.quantity} ${item.category}`);
         const id = await addItem(user.uid, item);
         setItemsArray([...itemsArray, {...item, id}]);
         

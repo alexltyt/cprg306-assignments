@@ -18,7 +18,7 @@ export default function Page() {
 
 
     return <main> 
-        <h1>Week 8</h1>
+        <h1>Week 10</h1>
         {!user && (
             <p>
                 Please sign in with GitHub.
@@ -27,7 +27,7 @@ export default function Page() {
         {user ? (
             <div>
             <p>Hi, {user.email}</p>
-            <Link href="/week10/shopping-list">Access shopping list</Link>
+            <Link href="/week10/shopping-list" className="text-4xl text-blue-600">Access shopping list</Link>
             <br/>
             <button onClick={handleSignOut}>Sign Out</button>
             </div>

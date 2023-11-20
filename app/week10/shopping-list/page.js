@@ -65,11 +65,11 @@ export default function Page(){
                 <div>
                     <NewItem onSubmit={handleAddItem}/> 
                     <ItemList itemsArray={itemsArray} onDelete={handleDelete} onItemSelect={handleItemSelect}/>
+                <button onClick={handleSignOut}>Sign Out</button>
                 </div>
                 <div >
                     <MealIdeas ingredient={selectedItemName}/>
                 </div>
-                <button onClick={handleSignOut}>Sign Out</button>
            </div>):(
                 <div>
                      <p>
